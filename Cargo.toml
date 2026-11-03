@@ -1,0 +1,17 @@
+[package]
+name = "eframe_learn"
+version = "0.1.0"
+edition = "2024"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+nursery = { level = "warn", priority = -1 }
+module_name_repetitions = "allow"
+
+[dependencies]
+eframe = "0.29"
+
+[[bin]]
+name = "eframe-learn"
+path = "src/main.rs"
+

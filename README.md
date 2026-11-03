@@ -1,2 +1,3 @@
-# rust_eframe_egui
-Learning eframe (egui) to create desktop application with Rust Programming Language
+# Learning eframe (egui) Crate in Rust Programming Language
+
+eframe (egui) crate
